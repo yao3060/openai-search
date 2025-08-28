@@ -1,4 +1,4 @@
-# WordPress Semantic Search MCP Server
+# WordPress Semantic Search AI Search
 
 基于 OpenAI Embeddings 和 Vector Stores 的 WordPress 内容语义搜索服务。
 
