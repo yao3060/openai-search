@@ -39,7 +39,7 @@ async function fetchWordPressPosts() {
   const perPage = 100;
 
   while (true) {
-    const url = `${WORDPRESS_POSTS_URL}&page=${page}`;
+    const url = `${WORDPRESS_POSTS_URL}?page=${page}&per_page=${perPage}`;
     console.log(`Fetching page ${page}...`);
     
     try {
